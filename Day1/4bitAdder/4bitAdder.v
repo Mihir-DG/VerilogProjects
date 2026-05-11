@@ -1,3 +1,6 @@
+// Simulate using:
+// https://hdlbits.01xz.net/wiki/Iverilog
+
 module top_module ();
     reg clk=0;
     always #5 clk = ~clk;
